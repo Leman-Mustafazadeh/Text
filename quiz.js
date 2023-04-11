@@ -13,11 +13,7 @@ function replace (lastWord,oldWord ,newWord ){
     let j = 0;
     let arr = ""
     while(j<newArray.length){
-        if(oldWord===arr[j]){
-            arr+=oldWord
-        }else{
-            arr+=newArray[j]
-        }
+        
 
         j++
     }
