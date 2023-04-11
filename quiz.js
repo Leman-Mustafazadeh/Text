@@ -23,4 +23,4 @@ function replace (lastWord,oldWord ,newWord ){
     }
     return arr
 }
-console.log(replace("laman","a","e"));
+console.log(replaceAll("laman","a","e"));
